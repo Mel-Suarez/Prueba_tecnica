@@ -1,0 +1,5 @@
+Se logró efectuar de manera adecuada la configuración inicial y la compilación de la prueba automatizada, garantizando que el entorno estuviera correctamente preparado. No obstante, en la última etapa del proceso, al ejecutar el comando:
+
+mvn clean verify -Dtest=FlujoCompraRunner
+
+se presentó un inconveniente durante la compilación del feature específico. Dicho problema estuvo relacionado con el archivo de configuración serenity.conf, el cual contenía un error de formato que impidió la correcta interpretación de los parámetros necesarios para la ejecución de la prueba.
