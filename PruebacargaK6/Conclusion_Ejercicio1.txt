@@ -1,0 +1,10 @@
+La prueba simuló 1806 peticiones, con una tasa de 35.6 peticiones/segundo. Todas las respuestas fueron exitosas, con código 200.
+El p95 de http_req_duration fue de 377.92 ms, por debajo del umbral fijado en <1500 ms, lo cual indica buen rendimiento. No hubo peticiones fallidas (http_req_failed=0%).  La duración de cada iteración (iteration_duration) fue de 1.35 s y se mantiene estable.
+
+La respuesta cumple con los requisitos esperados:
+status=200
+respuesta < 1.5 s
+El uso de red fue mínimo: 500 kB recibidos y 78 kB enviados en total
+
+No hubo fallos en las peticiones, lo que muestra un comportamiento confiable de la API bajo la carga actual, existe estabilidad.
+Y las latencias están bien controladas (<400 ms para el p95), lo que es bastante aceptable para la mayoría de APIs RESTful, hay buen rendimiento.
